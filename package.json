@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kennysghub/nice-grpc-prom/issues"
   },
-  "homepage": "https://github.com/kennysghub/nice-grpc-prom#readme"
+  "homepage": "https://github.com/kennysghub/nice-grpc-prom#readme",
+  "dependencies": {
+    "grpc": "^1.24.11",
+    "nice-grpc": "^2.1.4",
+    "nice-grpc-prometheus": "^0.1.6",
+    "prom-client": "^14.2.0"
+  }
 }
