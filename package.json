@@ -18,9 +18,17 @@
   },
   "homepage": "https://github.com/kennysghub/nice-grpc-prom#readme",
   "dependencies": {
+    "abort-controller-x": "^0.4.2",
     "grpc": "^1.24.11",
+    "long": "^5.2.3",
     "nice-grpc": "^2.1.4",
     "nice-grpc-prometheus": "^0.1.6",
-    "prom-client": "^14.2.0"
+    "nice-grpc-web": "^3.3.0",
+    "prom-client": "^14.2.0",
+    "protobufjs": "^7.2.3"
+  },
+  "devDependencies": {
+    "grpc-tools": "^1.12.4",
+    "ts-proto": "^1.148.1"
   }
 }
